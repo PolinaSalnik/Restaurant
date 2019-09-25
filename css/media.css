@@ -1,0 +1,51 @@
+@media (max-width: 992px) {
+    .food {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .row img {
+        height: auto;
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .row img {
+        height: auto;
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .row img {
+        height: auto;
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,111 @@
+$text-font: 'Poppins',
+sans-serif;
+
+.about {
+
+	.img {
+		margin-top: 50px;
+		margin-bottom: 100px;
+
+		.img_cook {
+			background: url('/img/cook.jpg') no-repeat;
+			margin: -30px 8px 0px 0px;
+		}
+
+		.img_cooking {
+			background: url('/img/cooking.jpg') no-repeat;
+			margin: 0px 0px -30px 8px;
+		}
+
+		.img_cook,
+		.img_cooking {
+			padding: 200px 70px;
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+		}
+	}
+
+	.title,
+	.amount {
+		font-family: $text-font;
+		font-size: 45px;
+		font-weight: bold;
+		color: #c8a97e;
+	}
+
+	.title {
+		padding: 50px 0px 50px 0px;
+	}
+
+	.services,
+	.reviews {
+		padding: 100px 0px 0px 0px;
+	}
+
+	.amount {
+		animation: fadeIn 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.text-uppertext {
+		text-transform: uppercase;
+	}
+
+	.birthday {
+		padding-top: 90px;
+		background: url('../img/cake.png') no-repeat top;
+		background-size: 70px;
+	}
+
+	.meeting {
+		padding-top: 90px;
+		background: url('../img/meeting.png') no-repeat top;
+		background-size: 70px;
+	}
+
+	.wedding {
+		padding-top: 90px;
+		background: url('../img/tray.png') no-repeat top;
+		background-size: 70px;
+	}
+
+	.subtitle {
+		font-family: $text-font;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.text {
+		font-family: $text-font;
+		font-size: 17px;
+		color: gray;
+	}
+
+	.image {
+		width: 150px;
+		height: 150px;
+		border-radius: 350px;
+		border: solid white;
+	}
+
+	.card {
+		border: white;
+	}
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		background-color: #c8a97e;
+	}
+
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

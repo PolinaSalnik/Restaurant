@@ -79,25 +79,19 @@ sans-serif;
 	.text {
 		font-family: $text-font;
 		font-size: 17px;
-		color: gray;
+		color: white;
 	}
 
 	.image {
 		width: 150px;
 		height: 150px;
 		border-radius: 350px;
-		border: solid white;
+		border: solid black;
 	}
 
 	.card {
-		border: white;
+		background: black;
 	}
-
-	.carousel-control-prev-icon,
-	.carousel-control-next-icon {
-		background-color: #c8a97e;
-	}
-
 }
 
 @keyframes fadeIn {
@@ -107,5 +101,17 @@ sans-serif;
 
 	100% {
 		opacity: 1;
+	}
+}
+
+@media (min-width: 768px) {
+	.reviews_sm {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.reviews_lg {
+		display: none;
 	}
 }

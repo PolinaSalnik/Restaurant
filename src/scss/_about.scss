@@ -82,21 +82,18 @@ sans-serif;
 		color: gray;
 	}
 
+	
 	.image {
 		width: 150px;
 		height: 150px;
 		border-radius: 350px;
-		border: solid white;
+		border: solid black;
 	}
 
 	.card {
-		border: white;
+		background: black;
 	}
 
-	.carousel-control-prev-icon,
-	.carousel-control-next-icon {
-		background-color: #c8a97e;
-	}
 
 }
 

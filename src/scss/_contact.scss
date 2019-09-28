@@ -17,9 +17,12 @@ a {
 	color: #fff;
 }
 
-p a {
+
+p,a {
 	color: #c8a97e;
+	background: black;
 }
+
 
 body {
 	font-family: "Poppins", Arial, sans-serif;
@@ -27,5 +30,9 @@ body {
 	font-size: 17px;
 	line-height: 2;
 	font-weight: 400;
-	color: #666666;
-}
+	color: #666666;}
+
+.back{background:black;}
+.footer_bottom{background: black;}
+
+

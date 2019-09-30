@@ -1,16 +1,19 @@
+
+$text-font: 'Poppins',
+sans-serif;
+
 * {
     padding: 0;
     margin: 0;
 }
 
-$text-font: 'Poppins',
-sans-serif;
 
 .container {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     background: black;
+font-family: $text-font;
 }
 h1, p {
     color: #c8a97e;

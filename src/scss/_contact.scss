@@ -6,10 +6,8 @@
 	font-weight: 400;
 	color: #666666;
 }
-
-a {
-	color: #c8a97e;
-}
+.forpad{padding-top: 112px;}
+.telek,.saitik,.anothersaitik {color: #c8a97e;}
 
 .btn.btn-primary {
 	background: #c8a97e;
@@ -17,8 +15,8 @@ a {
 	color: #fff;
 }
 
-
-p,a {
+.contus{color: green;}
+.forpanda{
 	color: #c8a97e;
 	background: black;
 }
@@ -26,13 +24,11 @@ p,a {
 
 body {
 	font-family: "Poppins", Arial, sans-serif;
-	background:black;
+	background: black;
 	font-size: 17px;
 	line-height: 2;
 	font-weight: 400;
 	color: #666666;}
 
 .back{background:black;}
-.footer_bottom{background: black;}
-.footer{text-align: center;}
 

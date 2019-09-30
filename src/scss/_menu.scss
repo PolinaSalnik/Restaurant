@@ -13,7 +13,7 @@ h1, p {
     color: #c8a97e;
 }
 .food {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .food_a {
     padding: 30px 0;
@@ -34,85 +34,36 @@ h1, p {
 .gor img {
     width: 100%;
 }
-
-.gor_1 img:hover,
-.gor_2 img:hover,
-.gor_3 img:hover,
-.gor_4 img:hover,
-.gor_5 img:hover,
-.gor_6 img:hover {
-    transform: scale(1.4);
+.modal img {
+    width: 100%;
+}
+.btn_menu {
+    background: black;
+}
+button {
+    border: none;
 }
 
 .salat img {
     width: 100%;
 }
 
-.salat_1 img:hover,
-.salat_2 img:hover,
-.salat_3 img:hover,
-.salat_4 img:hover,
-.salat_5 img:hover,
-.salat_6 img:hover {
-    transform: scale(1.4);
-}
-
-.pzz_2,
-.pzz_4 {
-    padding-bottom: 30px;
-}
 
 .pzz img {
-    width: 70%;
+    width: 100%;
 
 }
 
-.pzz_1 img:hover,
-.pzz_2 img:hover,
-.pzz_3 img:hover,
-.pzz_4 img:hover,
-.pzz_5 img:hover,
-.pzz_6 img:hover {
-    transform: scale(1.4);
-}
 .rolls img {
-    width: 55%;
+    width: 100%;
 
 }
 
-
-.rolls_1 img:hover,
-.rolls_2 img:hover,
-.rolls_3 img:hover,
-.rolls_4 img:hover,
-.rolls_5 img:hover,
-.rolls_6 img:hover {
-    transform: scale(1.4);
-}
-.rolls_2,
-.rolls_4 {
-    padding-bottom: 30px;
-    
-}
 .drink img {
-    width: 60%;
+    width: 100%;
 }
-.drink_1 img:hover,
-.drink_2 img:hover,
-.drink_3 img:hover,
-.drink_4 img:hover,
-.drink_5 img:hover,
-.drink_6 img:hover {
-    transform: scale(1.4);
-}
+
 .des img {
     width: 100%;
 }
-.des_1 img:hover,
-.des_2 img:hover,
-.des_3 img:hover,
-.des_4 img:hover,
-.des_5 img:hover,
-.des_6 img:hover {
-    transform: scale(1.4);
-}
+

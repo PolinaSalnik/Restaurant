@@ -96,6 +96,32 @@ sans-serif;
 	}
 }
 
+.topbutton {
+	width: 60px;
+	border: 2px solid #c8a97e;
+	background: black;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	color: #c8a97e;
+	border-radius: 5px;
+}
+
+.topbutton:hover {
+	background: #c8a97e;
+	cursor: pointer;
+	color: black;
+}
+.topbutton:active{
+	background: #c8a97e;
+	color: black;
+}
+.topbutton:focus{
+	background: #c8a97e;
+	color: black;
+}
 
 @keyframes fadeIn {
 	0% {

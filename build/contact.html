@@ -5,27 +5,60 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Сontact</title>
-
-
-  <link rel="stylesheet" href="css/main.css">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
 <body>
-
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target="#responsive-menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="index.html">Feliciano</a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="responsive-menu">
+  
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Главная <span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li class="dropdown">
+            <a href="menu.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Меню <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="menu.html">Горячие блюда</a></li>
+              <li><a href="salat.html">Салаты</a></li>
+              <li><a href="pizza.html">Пицца</a></li>
+              <li><a href="rolls.html">Суши и роллы</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="desserts.html">Десерты</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="drinks.html">Напитки</a></li>
+            </ul>
+          </li>
+        </ul>
+  
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="contact.html">Доставка</a></li>
+          <li><a href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="back">
-   
-    
-
-
     <div class="container">
       <div class="forpad">
-        <div class="col-md-6">
-          <iframe
+        <div class="col-md-6 ">
+          <iframe class="mapforcon"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6150609413407!2d27.55021061599244!3d53.903045540566744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebb83151cb%3A0x86f0768fe366289c!2z0YPQu9C40YbQsCDQoNC10LLQvtC70Y7RhtC40L7QvdC90LDRjyAxMiwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1569849551959!5m2!1sru!2sby"
             width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
@@ -39,37 +72,36 @@
               <input type="text" class="form-control" required placeholder="Ваш Email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control"required  placeholder="Тема">
+              <input type="text" class="form-control" required placeholder="Тема">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" required placeholder="Сообщение"></textarea>
+              <textarea name="" id="" cols="30" rows="7" class="form-control" required
+                placeholder="Сообщение"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Отправить сообщение" class="btn btn-primary py-3 px-5">
+              <input type="submit" value="Отправить сообщение" class="buttonpri btn btn-primary py-3 px-5">
             </div>
           </form>
         </div>
       </div>
       <div class="container">
-        <div class="row d-flex contact-info">
-          <div class="col-md-12 mb-4">
+        <div class="medforcon row d-flex contact-info">
+          <div class="col-md-12 mb-4 col-xs-12">
             <h2 class="h4 font-weight-bold">Контактная информация</h2>
           </div>
-
-          <div class="w-100"></div>
           <div class=" d-flex">
             <div class="forpanda">
               <div class="col-md-3 d-flex">
                 <div class="dbox">
                   <div class="forpanda">
-                    <p><span>Адресс:</span> ул.Революционная, 12 Минск BY 220117</p>
+                    <p><span>Адрес:</span> ул.Революционная, 12 МинскBY220117</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 d-flex">
                 <div class="dbox">
                   <div class="forpanda">
-                    <p><span>Телефон:</span> <a class="telek" href="tel://1234567920">+ 375 44 1488 228</a></p>
+                    <p><span>Телефон:</span> <a class="telek" href="tel://1234567920">+375441488228</a></p>
                   </div>
                 </div>
               </div>
@@ -89,20 +121,38 @@
               </div>
             </div>
           </div>
-
         </div>
-       
       </div>
     </div>
-
+    <footer class="footer">
+      <div class="footer_top text-center">
+        <div class="container-fluid">
+          <h2>Контакты</h2>
+          <div class="col-md-3 d-flex">
+          <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span><a
+              href="https://www.google.com/maps/place/%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F+12,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9030424,27.5502106,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfebb83151cb:0x86f0768fe366289c!8m2!3d53.9030424!4d27.5523993"  target="_blank" >   ул. Революционная, 12 Минск BY 220117</a></p></div>
+    
+              <div class="col-md-3 d-flex">
+              <p><span class="glyphicon glyphicon-earphone"aria-hidden="true"></span><a href="tel: +123 (00) 456 78 90"> +123 (00) 456 78 90</a></p></div>
+    
+              <div class="col-md-3 d-flex">
+          <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="https://mail.ru "  target="_blank"> yourmail@.com</a></p></div>
+        </div>
+      </div>
+    
+      <div class="footer_bottom">
+        <div class="container-fluid">
+          &copy;2019 FELICIANO. Все права защищены.
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="topbutton"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
     </script>
-
-
 </body>
 
 </html>

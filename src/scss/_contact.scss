@@ -1,13 +1,23 @@
+
 .dbox {
 	font-family: "Poppins", Arial, sans-serif;
 	background: #fff;
-	font-size: 17px;
+
 	line-height: 2;
 	font-weight: 400;
 	color: #666666;
 }
-.forpad{padding-top: 112px;}
-.telek,.saitik,.anothersaitik {color: #c8a97e;}
+
+.forpad {
+	padding-top: 240px;
+}
+
+
+.telek,
+.saitik,
+.anothersaitik {
+	color: #c8a97e;
+}
 
 .btn.btn-primary {
 	background: #c8a97e;
@@ -15,8 +25,11 @@
 	color: #fff;
 }
 
-.contus{color: green;}
-.forpanda{
+.contus {
+	color: White;
+}
+
+.forpanda {
 	color: #c8a97e;
 	background: black;
 }
@@ -25,10 +38,32 @@
 body {
 	font-family: "Poppins", Arial, sans-serif;
 	background: black;
-	font-size: 17px;
+
 	line-height: 2;
 	font-weight: 400;
-	color: #666666;}
+	color: #666666;
+}
 
-.back{background:black;}
+.back {
+	background: black;
+}
 
+.buttonpri {
+	color: #c8a97e;
+}
+
+@media (max-width:767px) {
+	.forpad {
+		width: 290px;
+	}
+}
+@media (max-width:767px) {
+	.mapforcon {
+		width: 260px;
+	}
+}
+@media (max-width:767px) {
+	.medforcon {
+		width: 289px;
+	}
+}

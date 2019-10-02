@@ -3,6 +3,9 @@
 	padding: 0;
 }
 
+$text-font: 'Poppins',
+sans-serif;
+
 .navbar-brand {
 	font-size: 70px;
 	margin-top: 20px;
@@ -21,8 +24,7 @@ h3 {
 }
 
 .carousel-caption {
-	font-family:'Poppins',
-	sans-serif;
+	font-family: $text-font;
 	padding-bottom: 300px;
 	font-size: 25px;
 }
@@ -33,8 +35,7 @@ h3 {
 }
 
 .caption {
-	font-family:'Poppins',
-	sans-serif;
+	font-family: $text-font;
 	font-size: 15px;
 }
 
@@ -60,5 +61,7 @@ h3 {
 }
 
 .footer_top {
+	
+	line-height: 10px;
 	font-size: 15px;
 }

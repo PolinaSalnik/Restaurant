@@ -5,27 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Сontact</title>
-
-
-  <link rel="stylesheet" href="css/main.css">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
 <body>
-
+  //= templates/header.html
   <div class="back">
-   
-    
-
-
     <div class="container">
       <div class="forpad">
-        <div class="col-md-6">
-          <iframe
+        <div class="col-md-6 ">
+          <iframe class="mapforcon"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6150609413407!2d27.55021061599244!3d53.903045540566744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebb83151cb%3A0x86f0768fe366289c!2z0YPQu9C40YbQsCDQoNC10LLQvtC70Y7RhtC40L7QvdC90LDRjyAxMiwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1569849551959!5m2!1sru!2sby"
             width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
@@ -39,30 +33,29 @@
               <input type="text" class="form-control" required placeholder="Ваш Email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control"required  placeholder="Тема">
+              <input type="text" class="form-control" required placeholder="Тема">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" required placeholder="Сообщение"></textarea>
+              <textarea name="" id="" cols="30" rows="7" class="form-control" required
+                placeholder="Сообщение"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Отправить сообщение" class="btn btn-primary py-3 px-5">
+              <input type="submit" value="Отправить сообщение" class="buttonpri btn btn-primary py-3 px-5">
             </div>
           </form>
         </div>
       </div>
       <div class="container">
-        <div class="row d-flex contact-info">
-          <div class="col-md-12 mb-4">
+        <div class="medforcon row d-flex contact-info">
+          <div class="col-md-12 mb-4 col-xs-12">
             <h2 class="h4 font-weight-bold">Контактная информация</h2>
           </div>
-
-          <div class="w-100"></div>
           <div class=" d-flex">
             <div class="forpanda">
               <div class="col-md-3 d-flex">
                 <div class="dbox">
                   <div class="forpanda">
-                    <p><span>Адресс:</span> ул.Революционная, 12 Минск BY 220117</p>
+                    <p><span>Адрес:</span> ул.Революционная, 12 Минск BY 220117</p>
                   </div>
                 </div>
               </div>
@@ -89,20 +82,17 @@
               </div>
             </div>
           </div>
-
         </div>
-       
       </div>
     </div>
-
+    //= templates/footer.html
+    //= templates/button.html
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
     </script>
-
-
 </body>
 
 </html>
